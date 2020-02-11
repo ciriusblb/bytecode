@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+:root {
+     --blackblue: #051441;
+  --gris: #707070;
+  --borderInput: #EDEDED;
+  --verde: #22B56E;
+  --verdeclaro: #ECF8F5;
+    --grisclaro: #EDEDED;
+        --orange: #FF5C1A;
+    --blackblue: #051441;
+  --black: #000;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+body::-webkit-scrollbar {
+    width: 7px;
+    background-color: rgb(0,0,0,0);
+}
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset rgb(0,0,0,0);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--orange);
+}
+body {
+    overflow-x: hidden;
+}
+
+
+.scrollbar::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgb(0,0,0,0);
+}
+.scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset rgb(0,0,0,0);
+}
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--gris);
+}
+.scrollbar {
+    overflow-x: hidden;
+}
+main{
+    background: #EAF4FE;
+}
+
+section {
+    padding: 50px;
+}
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+section.black {
+    padding: 50px;
+    background: #000;
+}
+.black h1 {
+    color: white;
+}
+.descriccion_seccion {
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,65 @@
+
+.div_cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.curso {
+    width: 280px;
+    height: 450px;
+    background: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.curso img {
+    width: 100%;
+}
+.curso .content h3 {
+    font-weight: normal;
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+}
+.curso .content p {
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    height: 150px;
+}
+.curso .content div {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background: var(--orange);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    border-radius: 3px;
+
+}
+.curso .content a {
+    color: white;
+    font-size: 15px;
+    margin: auto;
+    text-decoration: none;
+
+}
+/*-------------------------*/
+
+
+@media only screen and (max-width: 1024px) {
+
+    
+}
+@media only screen and (max-width: 768px) {
+
+}
+@media only screen and (max-width: 600px) {
+
+
+   
+}
+@media only screen and (max-width: 480px) {
+   
+}

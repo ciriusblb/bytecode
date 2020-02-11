@@ -1,0 +1,67 @@
+.nos_nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.nos_nosotros .nosotros_item {
+    background: white;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.nos_nosotros .nosotros_item img {
+    width: 60px;
+    text-align: center;
+}
+.nos_nosotros .nosotros_item > div:first-child {
+    height: 100px;
+    display: flex;
+
+}
+ .nos_nosotros .nosotros_item .titulo {
+   width: 180px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.nos_nosotros .nosotros_item .icon {
+   width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nos_nosotros .nosotros_item .icon div {
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    display: flex;
+
+}
+.nos_nosotros .nosotros_item > div:last-child {
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    height: 250px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    
+}
+@media only screen and (max-width: 768px) {
+   
+}
+@media only screen and (max-width: 600px) {
+
+
+   
+}
+@media only screen and (max-width: 480px) {
+   
+}

@@ -1,0 +1,65 @@
+.div_contactos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.mensaje {
+    width: 50%;
+}
+.mensaje > div {
+    background: white;
+    width: 500px;
+    margin: auto;
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+.mensaje > div h3 {
+    text-align: center;
+}
+.datos {
+    width: 50%;
+}
+.datos > div {
+    background: white;
+    width: 500px;
+    margin: auto;
+    padding: 20px 50px;
+    border-radius: 15px;
+}
+.datos img {
+    width: 30px;
+
+}
+.datos ul {
+    list-style: none;
+}
+@media only screen and (max-width: 1024px) {
+
+    .mensaje > div {
+        width: 400px;
+        padding: 20px 30px;
+    }
+    .datos > div {
+        width: 400px;
+        padding: 20px 30px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .mensaje {
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .datos {
+        width: 100%;
+        margin-bottom:10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+
+   
+}
+@media only screen and (max-width: 480px) {
+   
+}

@@ -1,0 +1,95 @@
+
+
+/*---------------------------------------------------------------*/
+.ini_presentacion {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background: var(--black);
+    background-image: url(imagenes/img_linhas.png);
+    background-size: contain;
+    
+}
+.ini_presentacion .ini_izq {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.ini_presentacion .ini_izq div {
+    margin: auto;
+}
+.ini_presentacion .ini_izq h1 {
+    color: white;
+    font-weight: normal;
+    width: 400px;
+    margin: auto;
+}
+.ini_presentacion .ini_izq p {
+    color: white;
+    width: 500px;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+.ini_presentacion .ini_der  {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.ini_presentacion .ini_der img {
+    width: 100%;
+}
+/*---------------------------------------------------------*/
+
+
+
+.ul_enlaces img{
+    width: 50px;
+}
+.ul_enlaces {
+    text-align: center;
+}
+.ul_enlaces ul  {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.ul_enlaces li {
+    margin: 0 10px;
+}
+
+
+/*--------------------------------------------*/
+
+@media only screen and (max-width: 1024px) {
+    .ini_presentacion .ini_izq {
+        width: 65%;
+    }
+    .ini_presentacion .ini_der  {
+        width: 35%;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .ini_presentacion .ini_izq {
+        width: 100%;
+    }
+    .ini_presentacion .ini_der  {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+
+   
+}
+@media only screen and (max-width: 480px) {
+    .ini_presentacion .ini_izq h1 {
+        width: 100%;
+    }
+    .ini_presentacion .ini_izq p {
+        width: 100%; 
+    }
+    
+}
