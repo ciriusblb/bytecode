@@ -1,0 +1,165 @@
+.ini_curso {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.informacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+}
+
+.div_anexos > div {
+    margin-bottom: 20px;
+}
+
+.box {
+    background: white;
+    padding: 15px;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+}
+.box_header {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+.box_header .box_img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+.box_header .box_img img {
+    width: 40px;
+}
+.box_header h3 {
+    font-weight: normal;
+    margin-left: 10px;
+}
+.box_content ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.box_content li {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.curso {
+    width: 280px;
+    height: 450px;
+    background: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.curso img {
+    width: 100%;
+}
+.curso .content h3 {
+    text-align: center;
+    margin: 10px;
+    height: 50px;
+}
+.curso .content p {
+    margin-top: 10px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    height: 150px;
+}
+.curso .content div {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background: var(--orange);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    border-radius: 3px;
+
+}
+.curso .content a {
+    color: white;
+    font-size: 15px;
+    margin: auto;
+    text-decoration: none;
+
+}
+
+.pre_inscripcion {
+    width: 30%;
+    
+}
+.pre_inscripcion h3 {
+    text-align: center;
+}
+.pre_inscripcion > div {
+    background: white;
+    padding: 15px;
+    margin: 0 15px;
+    height: 450px;
+    border-radius: 5px;
+    
+}
+/*-------------------------*/
+
+
+@media only screen and (max-width: 1024px) {
+    .informacion {
+        width: 60%;
+    }
+    .pre_inscripcion {
+        width: 40%;
+    
+    }
+    .box {
+        width: 400px;
+    }
+    
+}
+@media only screen and (max-width: 768px) {
+    .informacion {
+        width: 50%;
+    }
+    .pre_inscripcion {
+        width: 50%; 
+    }
+    .curso {
+        width: 300px;
+    }
+    .box {
+        width: 300px;
+        height: auto;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+
+    .informacion {
+        width: 100%;
+    }
+    .pre_inscripcion {
+        width: 100%; 
+    }
+   
+}
+@media only screen and (max-width: 480px) {
+    .pre_inscripcion {
+         width: 300px;
+    }
+.pre_inscripcion > div {
+    padding: 15px;
+    margin: 0;
+    width: 300px;
+
+    height: auto;
+    border-radius: 5px;
+    
+}
+}

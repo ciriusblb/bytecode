@@ -100,7 +100,7 @@
     outline: 0;
 }
 .formulario .formulario__input input:focus {
-        border: 0.5px solid var(--verde);
+        border: 0.5px solid var(--orange);
 }
 
 .formulario .formulario__textarea {
@@ -118,7 +118,7 @@
     outline: 0;
 }
 .formulario .formulario__textarea textarea:focus {
-        border: 0.5px solid var(--verde);
+        border: 0.5px solid var(--orange);
 }
 
 .formulario .formulario__select {
@@ -136,7 +136,7 @@
     outline: 0;
 }
 .formulario .formulario__select select:focus {
-        border: 0.5px solid var(--verde);
+        border: 0.5px solid var(--orange);
 }
 
 
